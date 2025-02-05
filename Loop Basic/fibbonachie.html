@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <script>
+        //Wap to print fibbonachie series: 0,1,1,2,3,5,8,13,...
+        //first + second = third
+
+        let first = 0;
+        let second = 1;
+        let i=0;
+        document.write(first + " "+ second);
+        while(i<=10)
+        {
+            let third = first + second;
+            document.write(" " + third);
+            first = second;
+            second = third;
+            i++;
+        }
+    </script>
+</body>
+</html>
