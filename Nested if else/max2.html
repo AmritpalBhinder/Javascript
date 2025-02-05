@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <script>
+        //Wap to check maximum number from 4 variables by nested if else.
+
+        let p = parseInt(prompt("Enter value of p: "));
+        let q = parseInt(prompt("Enter value of q: "));
+        let r = parseInt(prompt("Enter value of r: "));
+        let s = parseInt(prompt("Enter value of s: "));
+
+        if(p>q)
+        {
+            // p,r,s
+            if(p>r)
+            {
+                // p,s
+                if(p>s)
+                {
+                    console.log("p is maximum.");
+                }
+                else
+                {
+                    console.log("s is maximum.");
+                }
+            }
+            else{
+                // r,s
+                if(r>s)
+                {
+                    console.log("r is maximum.");
+                }
+                else
+                {
+                    console.log("s is maximum.");
+                }
+            }
+        }
+        else{
+            // q,r,s
+            if(q>r)
+            {
+                //q,s
+                if(q>s)
+                {
+                    console.log("q is maximum.");
+                }
+                else
+                {
+                    console.log("s is maximum.");
+                }
+            }
+            else
+            {
+                // r,s
+                if(r>s)
+                {
+                    console.log("r is maximum.");
+                }
+                else
+                {
+                    console.log("s is maximum.");
+                }
+            }
+        }
+    </script>
+</body>
+</html>
