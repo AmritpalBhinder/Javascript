@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <script>
+        //Wap to print series : 31,29,24,22,17,...
+
+        let a=31;
+        let i=1;
+        while(i<=10)
+        {
+            if(i%2==1)
+            {
+                document.write(a+" ");
+                a-=2;
+            }
+            else
+            {
+                document.write(a+" ");
+                a-=5;
+            }
+            i++;
+        }
+        document.write(a+"<br>");
+    </script>
+</body>
+</html>
