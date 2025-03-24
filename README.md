@@ -41,4 +41,4 @@ Feel free to **fork** this repository, make changes, and submit a pull request!
 
 Let me know if you want any modifications! 🚀
 
-<video url ="DOM/Background_Color_Change/Output_Video/Screen Recording 2025-03-23 220810.gif">
+<video src ="DOM/Background_Color_Change/Output_Video/Screen Recording 2025-03-23 220810.gif">
