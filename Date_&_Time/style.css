@@ -1,0 +1,19 @@
+*
+{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+} 
+/* .container{
+    height: 300px;
+    width: 500px;
+    background-image: url("images/images.jpg");
+    margin-left: 33%;
+    margin-top: 30vh;
+} */
+/* body{
+    background-color: black;
+}  */
+#clock{
+    color: white;
+}
