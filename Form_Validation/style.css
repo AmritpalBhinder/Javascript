@@ -1,0 +1,66 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+div {
+    width: 500px;
+    margin-top: 150px;
+    margin-left: 500px;
+}
+
+h1 {
+    text-align: center;
+    font-size: 35px;
+    margin-top: 10%;
+    font-weight: bolder;
+    color:rgb(252, 252, 255);
+}
+
+.container {
+    width: 400px;
+    height: 400px;
+    color: rgb(248, 241, 241);
+    background: rgba(255, 247, 247, 0.25);
+    box-shadow: 0 8px 32px 0 rgba(77, 79, 102, 0.37);
+    backdrop-filter: blur(4px);
+    -webkit-backdrop-filter: blur(4px);
+    margin: auto;
+    margin-top: 1%;
+}
+
+.container input {
+    top: 10%;
+    margin-top: 50px;
+    margin-left: 40px;
+    width: 300px;
+    height: 30px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.container button {
+    top: 20%;
+    margin: 60px;
+    margin-left: 140px;
+    height: 30px;
+    width: 100px;
+    border-radius: 10px;
+}
+
+.container p {
+    margin-bottom: -10px;
+    color: red;
+    margin-left: 50px;
+}
+
+body {
+    background-image: url('images/vecteezy_mountain-silhouetted-against-colorful-sunset-and-cloudy-sky_1248264.jpeg');
+    height: 70vh;
+    width: 100px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    opacity: 50px;
+}
