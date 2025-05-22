@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <div class="container">
+        <form id="SignUp" class="form">
+            <h1>SignUp</h1>
+                <div class="input-group">
+                    <label for="name">Name</label>
+                    <input type="text" id="name" name="name" placeholder="Enter the Name" required>
+                </div>
+                <div class="input-group">
+                     <label for="email">Email Address</label>
+                    <input type="email" id="email" name="email" placeholder="Enter the email address" required>
+                </div>
+                <div class="input-group">
+                     <label for="Country">Country</label>
+                    <input type="text" id="Country" name="Country" placeholder="Enter Country" required>
+                </div>
+                <div class="input-group">
+                     <label for="phone">Phone</label>
+                    <input type="tel" maxlength="10" id="phone" name="Phone" placeholder="Enter Phone Number" required>
+                </div>
+                <div class="input-group">
+                     <label for="name">Password</label>
+                    <input type="password" id="password" name="password" placeholder="Enter the Password" required>
+                </div>
+                <button type="submit">Create Account</button>
+        </form>
+        <form id="SignIn" class="form">
+            <h1>SignIn</h1>
+            <div class="input-group">
+                <label for="name">Name</label>
+                <input type="text" id="SignIn-name" name="name" placeholder="Enter your Name" required>
+            </div>
+            <div class="input-group">
+                <label for="email">Email Address</label>
+                <input type="email" id="SignIn-email" name="email" placeholder="Enter the email" required>
+            </div>
+            <div class="input-group">
+                <label for="password">Password</label>
+                <input type="password" id="SignIn-password" name="password" placeholder="Enter Password" required>
+            </div>
+            <button type="submit">SignIn</button>
+        </form>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
